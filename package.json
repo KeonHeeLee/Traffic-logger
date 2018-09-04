@@ -1,0 +1,35 @@
+{
+  "name": "traffic-logger",
+  "version": "0.0.1",
+  "description": "This library write logs that it is result of sending requests and recieving replies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeonHeeLee/Traffic-Logger.git"
+  },
+  "keywords": [
+    "traffic",
+    "test-tool",
+    "logger",
+    "library"
+  ],
+  "author": "KeonHeeLee",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/KeonHeeLee/Traffic-Logger/issues"
+  },
+  "homepage": "https://github.com/KeonHeeLee/Traffic-Logger#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "fs": "^0.0.1-security",
+    "webpack": "^4.17.2",
+    "webpack-dev-server": "^3.1.7",
+    "yarn": "^1.9.4"
+  }
+}
