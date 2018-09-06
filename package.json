@@ -4,7 +4,7 @@
   "description": "This library write logs that it is result of sending requests and recieving replies.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "example": "node ./example/src/index.js"
   },
   "repository": {
     "type": "git",
