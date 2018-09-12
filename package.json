@@ -4,7 +4,7 @@
   "description": "This library write logs that it is result of sending requests and recieving replies. ",
   "main": "index.js",
   "scripts": {
-    "build-example": "mkdir build && babel example --out-dir build",
+    "build-example": "babel example -d build",
     "example": "node build/main.js",
     "clean": "rm -rf build",
     "test": "test"
